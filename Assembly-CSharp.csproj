@@ -36,8 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mover.cs" />
-     <Compile Include="Assets\ObjectHit.cs" />
+     <Compile Include="Assets\Scripts\Mover.cs" />
+     <Compile Include="Assets\Scripts\ObjectHit.cs" />
+     <Compile Include="Assets\Scripts\Scorer.cs" />
+     <Compile Include="Assets\Scripts\CubeDropper.cs" />
+     <Compile Include="Assets\Scripts\Spinner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>K:\Unity\2020.3.30f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
